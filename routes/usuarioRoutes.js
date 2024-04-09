@@ -4,7 +4,7 @@ import { formularioLogin, formularioRegistro, registrar,formularioOlvidePassword
 
 const router = express.Router()
 
-//!Routing
+//Routing
 router.get('/login', formularioLogin); // ENDPOINT login
 
 router.get('/registro', formularioRegistro); // ENDPOINT registro

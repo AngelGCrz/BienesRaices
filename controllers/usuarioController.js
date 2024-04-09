@@ -28,6 +28,8 @@ const registrar = async(req, res) => {
 
     let resultado = validationResult(req)
 
+    // return res.json(resultado.array())
+
     //Vericar que el resultado este vacio
     if(!resultado.isEmpty()) {
         //errores
