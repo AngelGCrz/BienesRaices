@@ -20,7 +20,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
-    "pug": "^3.0.2"
+    "mysql2": "^3.9.4",
+    "pug": "^3.0.2",
+    "sequelize": "^6.37.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
