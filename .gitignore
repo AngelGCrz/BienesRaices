@@ -5,8 +5,8 @@ node_modules/
 .pug-cache/
 /dist/
 /build/
-tailwind.config.js
-postcss.config.js
-/public/build/
+.nyc_output/
+.postcssrc
+
 
 
