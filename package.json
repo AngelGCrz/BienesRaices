@@ -19,6 +19,7 @@
   "author": "Angel GC",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mysql2": "^3.9.4",
     "pug": "^3.0.2",
