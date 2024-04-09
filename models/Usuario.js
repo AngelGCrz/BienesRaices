@@ -1,6 +1,6 @@
 import { DataTypes } from 'sequelize'
 import db from '../config/db.js'
-const usuario = db.define('usuario', {
+const Usuario = db.define('usuario', {
     nombre:{
         type: DataTypes.STRING,
         allowNull: false, //este campo no puede ir vacio

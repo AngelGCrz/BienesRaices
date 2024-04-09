@@ -5,6 +5,9 @@ import db from './config/db.js'
 //crear la app
 const app = express()
 
+//Habilitar lectura de datos de forumlarios
+app.use(express.urlencoded({ extended: true }))
+
 //Conexion a la base de datos
 try {
     await db.authenticate();
